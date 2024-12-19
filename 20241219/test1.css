@@ -1,0 +1,44 @@
+/* .fruits span:first-child {
+    color: red;
+} */
+
+/* div가 부모 요소가 아니라서 나타나지 않음 */
+/* .fruits div:first-child {
+    color: blue;
+}
+
+.fruits h3:last-child {
+    color: red;
+}
+
+.tomato {
+    color: green;
+}
+
+.fruits *:nth-child(2) {
+    color: red;
+}
+.fruits *:nth-child(4) {
+    color: red;
+} */
+
+/* .fruits *:nth-child(2n) {
+    color: red;
+} */
+/* .fruits *:nth-child(n+2) {
+    color: blue;
+} */
+/* .fruits *:nth-child(2n+1) {
+    color: blue;
+} */
+
+.fruits span:nth-child(2n+1) {
+    color: purple;
+}
+.fruits span:nth-child(2n) {
+    color: orange;
+}
+
+.fruits *:not(span) {
+    color: red;
+}
